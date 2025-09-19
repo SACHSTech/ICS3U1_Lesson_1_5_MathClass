@@ -32,8 +32,10 @@ Write a program `Hypotenuse.java` that lets you enter the two sides of a right a
 public class Hypotenuse extends ConsoleProgram{
 
    public void run() {
+```
 <details>
   <summary>Solution:</summary>
+   ```
         // Create variables for sideA, sideB, hypotenuse
         double dblSideA;
         double dblSideB;
@@ -51,7 +53,9 @@ public class Hypotenuse extends ConsoleProgram{
 
         // Output hypotenuse
         System.out.println("The hypotenuse of the right triangle is " + dblHypotenuse);
+   ```
 </details>
+```
     }
 }     
 ```
