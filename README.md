@@ -20,7 +20,9 @@ The Math class is a built-in library of common math methods (functions) and cons
 ## Example
 Write a program `Hypotenuse.java` that lets you enter the two sides of a right angled triangle, and then prints the hypotenuse.
 
-
+<details>
+  <summary>Solution:</summary>
+   
 ```
 /*
 * Write a program Hypotenuse.java that lets you enter the two sides of a right angled triangle,
@@ -32,10 +34,7 @@ Write a program `Hypotenuse.java` that lets you enter the two sides of a right a
 public class Hypotenuse extends ConsoleProgram{
 
    public void run() {
-```
-<details>
-  <summary>Solution:</summary>
-   ```
+
         // Create variables for sideA, sideB, hypotenuse
         double dblSideA;
         double dblSideB;
@@ -53,12 +52,12 @@ public class Hypotenuse extends ConsoleProgram{
 
         // Output hypotenuse
         System.out.println("The hypotenuse of the right triangle is " + dblHypotenuse);
-   ```
-</details>
-```
     }
-}     
+}
 ```
+
+</details>
+
 # Working with Angles
 When using trigonometric functions like Math.cos or Math.Sin, you must supply the angle in radians.  You can use the Math.toRadians() method to convert from degrees to radians.
 
